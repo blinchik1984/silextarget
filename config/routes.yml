@@ -1,0 +1,8 @@
+targetHome:
+  path: /
+  defaults: { _controller: 'Target\Controllers\HomePage::index' }
+
+targetHello:
+  path: /hello
+  defaults: { _controller: 'Target\Controllers\HomePage::hello', name: 'andrey' }
+
